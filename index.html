@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MIT Projects</title>
+<!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link href="styles.css" rel="stylesheet" >
+    <link rel="icon" href="images/portfolio.png" type="image/x-icon">
+</head>
+<body>
+    <div class="frame-container">
+  <!--TITLE-->
+    <div class="parallax">
+        <h1 class="siteHeader_title">Emiliya Ivanova-Nikolova</h1>
+        <p class="siteHeader_label">Junior Web Developer</p>
+    </div>
+<!--NAVIGATION-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="showHomeLink">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="showPortfolioLink">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Social Media
+                        </a>
+                        <ul class="dropdown-menu">
+                            <a id="facebook" class="dropdown-item" href="https://www.facebook.com/emiliya.ivanova.311"
+                                target="_blank">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </a>
+                            <a id="linkedin" class="dropdown-item" href="https://linkedin.com/in/emiliya-ivanova-nikolova-3144bb13/"
+                                target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a id="instagram" class="dropdown-item" href="https://www.instagram.com/emyvanova?igshid=MzMyNGUyNmU2YQ=="
+                                target="_blank">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="showContacts">Contact</a>
+                    </li>
+                </ul>
+            <!--SEARCH-->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="search the site" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+<!--ABOUT-ME-->
+        <div class="content" id="hiddenHome" style="display: none;">
+            <section id="about">
+                <h2 class="margin">About Me</h2>
+            </section>
+            <div class="row">
+              <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Hello!</h5>
+                    <p class="card-text">Born 1982 in Vidin, Bulgaria, I have dedicated the last 15 years to technical writing.<br> Recently, I started my journey in getting to know the possibilities of Web development and they seem to be endless.<br>To learn a little bit about me, do not hesitate and click the YouTube video.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <iframe width="383" height="200" src="https://www.youtube.com/embed/OkYcW0Y18AA?si=-KotOKYlra9OXjrp" title="Emiliya's Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+<!--PORTFOLIO-->
+        <div class="content" id="hiddenPortfolio" style="display: none;">
+            <section id="portfolio">
+                <h2 class="margin">Portfolio</h2>
+            </section>
+            <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Pac-Man</h5>
+                      <p class="card-text" style="height: 12em;">With this project you can create one or more pac-men and have each of them move on the browser window at their own pace. You can either create few pack-men, by slecting <b>Add PackMan</b> multiple times, and then start the game, or vise-versa. To speed up the velocity of a pack-man, click the <b>Start Game</b> button multiple times. </p>
+                      <a href="https://eminikolova.github.io/PacMan-Factory/" class="btn btn-primary" target="_blank">View this project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Eye Movement</h5>
+                      <p class="card-text" style="height: 12em;">With this project you can have few eyes following you, continuously, while moving around with your mouse on the browser window.</p>
+                      <a href="https://eminikolova.github.io/EyeMovement/" class="btn btn-primary" target="_blank">View this project</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Map Animation</h5>
+                        <p class="card-text" style="height: 12em;">With this project you can get familar with Downton St Louis. To view a short route that the metrolink does every day, click the <b>Show stops in Saint Louis, MO</b> button.</p>
+                        <a href="https://eminikolova.github.io/MapAnimation/" class="btn btn-primary" target="_blank">View this project</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+<!--CONTACT-->
+        <div class="row" id="hiddenContacts" style="display: none;">
+            <div class="col-md-4">
+                <section id="contact" class="py-7">
+                    <h2 class="margin">Contact Me</h2>
+                </section>
+                <div class="container py-4">
+                    <form id="contactForm" action="https://formspree.io/f/xrgwdynq" method="POST">
+                      <!-- Name input -->
+                      <div class="mb-3">
+                        <input class="form-control" name="name" id="name" type="text" placeholder="your first and last name" required>
+                      </div>
+                      <!-- Email address input -->
+                      <div class="mb-3">
+                        <input class="form-control" name="email" id="emailAddress" type="email" placeholder="your email address" required>
+                      </div>
+                      <!-- Message input -->
+                      <div class="mb-3">
+                        <textarea class="form-control" name="message" id="message" type="text" placeholder="your message" style="height: 10rem;" required></textarea>
+                      </div>  
+                      <!-- Form submit button -->
+                      <div class="d-grid">
+                        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Link to Bootstrap JS and Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

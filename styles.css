@@ -1,0 +1,81 @@
+
+body {
+    font-family: 'Chillax', sans-serif;
+}
+.siteHeader_title {
+    font-family: 'Rajdhani';
+    font-size: 46px;
+}
+.siteHeader_label {
+    margin-top: 2px;
+    font-weight: 300;
+    font-family: 'Rajdhani-Bold';
+}
+.parallax {
+    position: relative;
+    text-align: left;
+    color: #030202;
+    padding: 30px 0;
+    margin: 0 0 0 21px;
+}
+.margin{
+    margin: 80px 10px 20px -5px;
+    font-family: 'Rajdhani-Bold';
+}
+.navbar {
+background-color: rgb(218, 218, 245);
+}
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 0 0 21px;
+}
+.nav-link:hover {
+    color: rgb(148, 148, 245);
+    }
+@font-face {
+    font-family: 'Chillax';
+    src: url('Chillax_Complete/Fonts/WEB/fonts/Chillax-Regular.woff') format('woff'),
+         url('Chillax_Complete/Fonts/WEB/fonts/Chillax-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    src: url('Rajdhani_Complete/Fonts/WEB/fonts/Rajdhani-Light.woff') format('woff'),
+         url('Rajdhani_Complete/Fonts/WEB/fonts/Rajdhani-Light.woff2') format('woff2');
+} 
+@font-face {
+    font-family: 'Rajdhani-Bold';
+    font-weight: 600;
+    src: url('Rajdhani_Complete/Fonts/WEB/fonts/Rajdhani-SemiBold.woff') format('woff'),
+         url('Rajdhani_Complete/Fonts/WEB/fonts/Rajdhani-SemiBold.woff2') format('woff2');
+} 
+/* Style for dropdown items on hover */
+#instagram:hover {
+    background-color: #dc3545; /* Change this to your desired hover background color */
+    color: #fff; /* Change this to your desired text color on hover */
+}
+
+#facebook:hover {
+    background-color: #0d6efd; /* Change this to your desired hover background color */
+    color: #fff; /* Change this to your desired text color on hover */
+}
+#linkedin:hover {
+    background-color: #0a66c2; /* Change this to your desired hover background color */
+    color: #fff; /* Change this to your desired text color on hover */
+}
+.frame-container {
+    border: 1px solid #000; /* 1px black border */
+    width: calc(100% - 40px); /* 100% width minus 20px for left and right margin */
+    height: calc(100vh - 40px); /* 100% height minus 20px for top and bottom margin */
+    margin: 20px; /* Add space from all sides */
+    padding: 10px; /* Add some padding inside the frame */
+}
+.youtube-video {
+    aspect-ratio: 10 / 5;
+    width: 100%;
+  }
+.card-title {
+    font-weight: 300;
+    font-size: 30px;
+}

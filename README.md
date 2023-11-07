@@ -4,3 +4,7 @@ A simple Web site representing the projects I have recently worked on during my 
 Click the **index.html** file. Once on the website, select **Portfolio** from the navigation bar. 
 ## Get to Know Me
 While on the website, select **Home** and click the YouTube video.
+## Links to the projects repos
+* Pac-Man -> https://eminikolova.github.io/PacMan-Factory/
+* Eye Movement -> https://eminikolova.github.io/EyeMovement/
+* Map Animation -> https://eminikolova.github.io/MapAnimation/

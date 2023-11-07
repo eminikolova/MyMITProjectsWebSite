@@ -8,3 +8,5 @@ While on the website, select **Home** and click the YouTube video.
 * Pac-Man -> https://eminikolova.github.io/PacMan-Factory/
 * Eye Movement -> https://eminikolova.github.io/EyeMovement/
 * Map Animation -> https://eminikolova.github.io/MapAnimation/
+# License
+Distributed under the MIT License. See LICENSE.txt for more information.
